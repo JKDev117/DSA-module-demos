@@ -1,4 +1,6 @@
-class _Node { //underscore _ indicates a private class
+class _Node { 
+//^^ underscore _ indicates a private class that should not be accessible by anyone else 
+//other than the linked list class
     constructor(value, next){
         this.value = value;
         this.next = next;
